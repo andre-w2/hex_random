@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+	background: none;
+	border: 2px solid blue;
+	padding: 5px;
+	margin-top: 20px;
+	color: blue;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+.hex-colors {
+    text-align: center;
+}
+
+.hex-colors h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changeColor 5s infinite alternate;
+}
+
+.hex-colors h2 {
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+@keyframes changeColor {
+    0% {
+        color: indigo;
+    }
+
+    20% {
+        color: red;
+    }
+
+    40% {
+        color: green;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    80% {
+        color: yellow;
+    }
+
+    100% {
+        color: orange;
+    }
+}
